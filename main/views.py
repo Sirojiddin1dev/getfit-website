@@ -57,4 +57,4 @@ def lesson_v(request):
     if request.user.is_staff:
         return render(request, 'index.html')
     else:
-        return render(request, 'admin.html')
+        return render(request, 'indexx.html')

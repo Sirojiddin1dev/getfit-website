@@ -1,0 +1,61 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GetFit</title>
+    <link rel="stylesheet" href="{% static 'css/main.css' %}" />
+  </head>
+  <body>
+    <main>
+      <section class="getfit">
+        <!-- DROPDOWN SECTION START -->
+        <div class="getfit__left dropdowns">
+          <!-- DROPDOWN HEADING START -->
+          <div class="dropdown__heading">
+            <strong>Kurs tartibi</strong>
+            <button class="close-menu">
+              <img src="{% static 'images/close-icon.png' %}" alt="Close menu" width="20" >
+            </button>
+          </div>
+          <!-- DROPDOWN HEADING END -->
+          <!-- DROPDOWN MAIN START -->
+          <div class="dropdown__main"></div>
+        </div>
+        <!-- DROPDOWN SECTION END -->
+        <!-- VIDEO SECTION START -->
+        <div class="getfit__right video">
+          <div class="video__heading">
+            <button class="open-menu">
+              <img src="{% static 'images/menu-icon.svg' %}" alt="Open menu" width="20" >
+            </button>
+            <button class="video__buttons video__go-back">
+              <img
+                src="{% static 'images/arrow-right-white.svg' %}"
+                alt="Go Back"
+                width="15"
+                height="15"
+              />
+            </button>
+            <button class="video__buttons video__go-forward">
+              <img
+                src="{% static 'images/arrow-right-white.svg' %}"
+                alt="Go Back"
+                width="15"
+                height="15"
+              />
+            </button>
+            <p>GetFit</p>
+          </div>
+          <div class="video__main">
+            <p>VIDEO TANLANG...</p>
+          </div>
+        </div>
+        <!-- VIDEO SECTION END -->
+      </section>
+    </main>
+    <script src="{% static 'js/main.js' %}"></script>
+  </body>
+</html>

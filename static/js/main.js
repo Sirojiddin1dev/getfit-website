@@ -1,3 +1,4 @@
+// Elementlarni olish
 const elDropDownParent = document.querySelector('.dropdowns');
 const elDropDownMain = document.querySelector('.dropdown__main');
 const elVideoSection = document.querySelector('.video__main');
@@ -15,15 +16,21 @@ const dropDownData = [
     videos: [
       {
         id: 1,
-        name: 'Something',
+        name: 'Video 1',
+        otp: '20160313versASE323nFtynCqN5DALtZRpAVC5Da0fFP7GkZwLXuifHgron36UGq',
+        playbackInfo: 'eyJ2aWRlb0lkIjoiZmY3NDY1ZGZjZDViNGFhN2ExNmQzZWNkMzgxZGViY2QifQ=='
       },
       {
         id: 2,
-        name: 'Something',
+        name: 'Video 2',
+        otp: 'otp_example_2',
+        playbackInfo: 'playbackInfo_example_2'
       },
       {
         id: 3,
-        name: 'Something',
+        name: 'Video 3',
+        otp: 'otp_example_3',
+        playbackInfo: 'playbackInfo_example_3'
       },
     ],
   },
@@ -33,15 +40,21 @@ const dropDownData = [
     videos: [
       {
         id: 4,
-        name: 'Something',
+        name: 'Video 4',
+        otp: 'otp_example_4',
+        playbackInfo: 'playbackInfo_example_4'
       },
       {
         id: 5,
-        name: 'Something',
+        name: 'Video 5',
+        otp: 'otp_example_5',
+        playbackInfo: 'playbackInfo_example_5'
       },
       {
         id: 6,
-        name: 'Something',
+        name: 'Video 6',
+        otp: 'otp_example_6',
+        playbackInfo: 'playbackInfo_example_6'
       },
     ],
   },
@@ -51,15 +64,21 @@ const dropDownData = [
     videos: [
       {
         id: 7,
-        name: 'Something',
+        name: 'Video 7',
+        otp: 'otp_example_7',
+        playbackInfo: 'playbackInfo_example_7'
       },
       {
         id: 8,
-        name: 'Something',
+        name: 'Video 8',
+        otp: 'otp_example_8',
+        playbackInfo: 'playbackInfo_example_8'
       },
       {
         id: 9,
-        name: 'Something',
+        name: 'Video 9',
+        otp: 'otp_example_9',
+        playbackInfo: 'playbackInfo_example_9'
       },
     ],
   },
@@ -69,15 +88,21 @@ const dropDownData = [
     videos: [
       {
         id: 10,
-        name: 'Something',
+        name: 'Video 10',
+        otp: 'otp_example_10',
+        playbackInfo: 'playbackInfo_example_10'
       },
       {
         id: 11,
-        name: 'Something',
+        name: 'Video 11',
+        otp: 'otp_example_11',
+        playbackInfo: 'playbackInfo_example_11'
       },
       {
         id: 12,
-        name: 'Something',
+        name: 'Video 12',
+        otp: 'otp_example_12',
+        playbackInfo: 'playbackInfo_example_12'
       },
     ],
   },
@@ -87,15 +112,21 @@ const dropDownData = [
     videos: [
       {
         id: 13,
-        name: 'Something',
+        name: 'Video 13',
+        otp: 'otp_example_13',
+        playbackInfo: 'playbackInfo_example_13'
       },
       {
         id: 14,
-        name: 'Something',
+        name: 'Video 14',
+        otp: 'otp_example_14',
+        playbackInfo: 'playbackInfo_example_14'
       },
       {
         id: 15,
-        name: 'Something',
+        name: 'Video 15',
+        otp: 'otp_example_15',
+        playbackInfo: 'playbackInfo_example_15'
       },
     ],
   },
@@ -105,15 +136,21 @@ const dropDownData = [
     videos: [
       {
         id: 16,
-        name: 'Something',
+        name: 'Video 16',
+        otp: 'otp_example_16',
+        playbackInfo: 'playbackInfo_example_16'
       },
       {
         id: 17,
-        name: 'Something',
+        name: 'Video 17',
+        otp: 'otp_example_17',
+        playbackInfo: 'playbackInfo_example_17'
       },
       {
         id: 18,
-        name: 'Something',
+        name: 'Video 18',
+        otp: 'otp_example_18',
+        playbackInfo: 'playbackInfo_example_18'
       },
     ],
   },
@@ -123,15 +160,21 @@ const dropDownData = [
     videos: [
       {
         id: 19,
-        name: 'Something',
+        name: 'Video 19',
+        otp: 'otp_example_19',
+        playbackInfo: 'playbackInfo_example_19'
       },
       {
         id: 20,
-        name: 'Something',
+        name: 'Video 20',
+        otp: 'otp_example_20',
+        playbackInfo: 'playbackInfo_example_20'
       },
       {
         id: 21,
-        name: 'Something',
+        name: 'Video 21',
+        otp: 'otp_example_21',
+        playbackInfo: 'playbackInfo_example_21'
       },
     ],
   },
@@ -141,15 +184,21 @@ const dropDownData = [
     videos: [
       {
         id: 22,
-        name: 'Something',
+        name: 'Video 22',
+        otp: 'otp_example_22',
+        playbackInfo: 'playbackInfo_example_22'
       },
       {
         id: 23,
-        name: 'Something',
+        name: 'Video 23',
+        otp: 'otp_example_23',
+        playbackInfo: 'playbackInfo_example_23'
       },
       {
         id: 24,
-        name: 'Something',
+        name: 'Video 24',
+        otp: 'otp_example_24',
+        playbackInfo: 'playbackInfo_example_24'
       },
     ],
   },
@@ -159,15 +208,21 @@ const dropDownData = [
     videos: [
       {
         id: 26,
-        name: 'Something',
+        name: 'Video 26',
+        otp: 'otp_example_26',
+        playbackInfo: 'playbackInfo_example_26'
       },
       {
         id: 27,
-        name: 'Something',
+        name: 'Video 27',
+        otp: 'otp_example_27',
+        playbackInfo: 'playbackInfo_example_27'
       },
       {
         id: 28,
-        name: 'Something',
+        name: 'Video 28',
+        otp: 'otp_example_28',
+        playbackInfo: 'playbackInfo_example_28'
       },
     ],
   },
@@ -177,15 +232,21 @@ const dropDownData = [
     videos: [
       {
         id: 29,
-        name: 'Something',
+        name: 'Video 29',
+        otp: 'otp_example_29',
+        playbackInfo: 'playbackInfo_example_29'
       },
       {
         id: 30,
-        name: 'Something',
+        name: 'Video 30',
+        otp: 'otp_example_30',
+        playbackInfo: 'playbackInfo_example_30'
       },
       {
         id: 31,
-        name: 'Something',
+        name: 'Video 31',
+        otp: 'otp_example_31',
+        playbackInfo: 'playbackInfo_example_31'
       },
     ],
   },
@@ -195,15 +256,21 @@ const dropDownData = [
     videos: [
       {
         id: 32,
-        name: 'Something',
+        name: 'Video 32',
+        otp: 'otp_example_32',
+        playbackInfo: 'playbackInfo_example_32'
       },
       {
         id: 33,
-        name: 'Something',
+        name: 'Video 33',
+        otp: 'otp_example_33',
+        playbackInfo: 'playbackInfo_example_33'
       },
       {
         id: 34,
-        name: 'Something',
+        name: 'Video 34',
+        otp: 'otp_example_34',
+        playbackInfo: 'playbackInfo_example_34'
       },
     ],
   },
@@ -213,21 +280,28 @@ const dropDownData = [
     videos: [
       {
         id: 35,
-        name: 'Something',
+        name: 'Video 35',
+        otp: 'otp_example_35',
+        playbackInfo: 'playbackInfo_example_35'
       },
       {
         id: 36,
-        name: 'Something',
+        name: 'Video 36',
+        otp: 'otp_example_36',
+        playbackInfo: 'playbackInfo_example_36'
       },
       {
         id: 37,
-        name: 'Something',
+        name: 'Video 37',
+        otp: 'otp_example_37',
+        playbackInfo: 'playbackInfo_example_37'
       },
     ],
-  },
+  }
 ];
 
-// RENDER DROPDOWN TO PAGE
+
+// DROPDOWN RENDERING
 
 dropDownData.map(
   (item) =>
@@ -236,66 +310,39 @@ dropDownData.map(
     <summary>${item.name}</summary>
     ${item.videos
       .map(
-        (item) =>
-          `<button class='dropdown__categories' id=${item.id}>${item.name}</button>`
+        (video) =>
+          `<button class='dropdown__categories' data-otp='${video.otp}' data-playbackInfo='${video.playbackInfo}'>${video.name}</button>`
       )
       .join('')}
   </details>
 `)
 );
 
-// PUT VIDEO BY UNIQUE ID
-
-let videoId = [];
-
+// Video ko'rsatish
 elDropDownMain.addEventListener('click', (evt) => {
   if (evt.target.matches('.dropdown__categories')) {
-    elDropDownParent.classList.forEach((item) => {
-      if (item == 'open') {
-        elDropDownParent.classList.remove('open');
-      }
-    });
+    elDropDownParent.classList.remove('open');  // Menuni yopish
 
-    videoId.push(evt.target.id);
-    // IF YOU WANT TO PUT UNIQUE VIDEO YOU JUST EDIT THIS CODE BELOW:
-    // src="./videos/video.mp4"
+    const otp = evt.target.getAttribute('data-otp');  // OTP olish
+    const playbackInfo = evt.target.getAttribute('data-playbackInfo');  // PlaybackInfo olish
 
+    // Vdocipher videosini yuklash
     elVideoSection.innerHTML = `
-      <video controls autoplay>
-        <source src="./videos/video.mp4" type="video/mp4" />
-      </video>
+      <iframe src="https://player.vdocipher.com/v2/?otp=${otp}&playbackInfo=${playbackInfo}"
+              allow="encrypted-media"
+              style="height:405px;width:720px;max-width:100%;border:0;"
+              allowfullscreen="true">
+      </iframe>
     `;
   }
 });
 
-let previousVideo = null;
+// MENU RESPONSIVE
 
-elVideoBack.addEventListener('click', (evt) => {
-  if (previousVideo == 1) {
-    elVideoSection.innerHTML = `
-      <p>VIDEO TANLANG...</p>
-    `;
-
-    return;
-  }
-
-  previousVideo = --videoId.length;
-
-  // IF YOU CAN CHANGE VIDEO, JUST EDIT SOURCE VIDEO: src="./videos/video.mp4"
-
-  elVideoSection.innerHTML = `
-      <video controls autoplay>
-        <source src="./videos/video.mp4" type="video/mp4" />
-      </video>
-    `;
+elOpenMenuBtn.addEventListener('click', () => {
+  elDropDownParent.classList.add('open');
 });
 
-// OPEN-CLOSE MENU IN RESPONSIVE
-
-elOpenMenuBtn.addEventListener('click', (evt) => {
-  elDropDownParent.className += ' open';
-});
-
-elCloseMenuBtn.addEventListener('click', (evt) => {
+elCloseMenuBtn.addEventListener('click', () => {
   elDropDownParent.classList.remove('open');
 });

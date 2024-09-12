@@ -54,7 +54,9 @@ def user_logout(request):
 
 
 def lesson_v(request):
-    if request.user.is_staff:
-        return render(request, 'index.html')
-    else:
-        return render(request, 'indexx.html')
+    return render(request, 'index.html')
+
+
+
+def lesson(request):
+    return render(request, 'lesson.html')

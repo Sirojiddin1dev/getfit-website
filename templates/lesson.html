@@ -1,82 +1,15 @@
-{% load static %}
-<!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Online Education Platform</title>
-    <link rel="stylesheet" href="{% static 'styleles.css' %}">
+    <title>Vdocipher Video Embed</title>
 </head>
 <body>
-    <div class="container">
-        <!-- Chap tomonda modullar va darslar -->
-        <div class="sidebar">
-            <h2>Modules</h2>
-            <div class="module">
-                <button class="accordion">Module 1: Introduction</button>
-                <div class="panel">
-                    <ul>
-                        <li>Lesson 1.1: Welcome</li>
-                        <li>Lesson 1.2: Course Overview</li>
-                    </ul>
-                </div>
-            </div>
-            <div class="module">
-                <button class="accordion">Module 2: HTML Basics</button>
-                <div class="panel">
-                    <ul>
-                        <li>Lesson 2.1: HTML Tags</li>
-                        <li>Lesson 2.2: Attributes</li>
-                    </ul>
-                </div>
-            </div>
-            <div class="module">
-                <button class="accordion">Module 3: CSS Basics</button>
-                <div class="panel">
-                    <ul>
-                        <li>Lesson 3.1: CSS Syntax</li>
-                        <li>Lesson 3.2: Styling Elements</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
+    <!-- Your other HTML content -->
 
-        <!-- O'ng tomonda darslar va video -->
-        <div class="main-content">
-            <h2>Lesson Title</h2>
-            <video controls width="100%">
-                <source src="path_to_video.mp4" type="video/mp4">
-                Your browser does not support the video tag.
-            </video>
+    <!-- Vdocipher Video Embed -->
+    <div style="padding-top:56%;position:relative;">
+<iframe src="https://player.vdocipher.com/v2/?otp=20160313versASE323ZrMntbkaLYiu0pIJmAy46UZgZinQT4cPYlcXIMR9of8Tld&playbackInfo=eyJ2aWRlb0lkIjoiZmY3NDY1ZGZjZDViNGFhN2ExNmQzZWNkMzgxZGViY2QifQ==" style="border:0;max-width:100%;position:absolute;top:0;left:0;height:100%;width:100%;" allowFullScreen="true" allow="encrypted-media"></iframe>
+</div>
 
-            <!-- Keyingi va Oldingi dars tugmalari -->
-            <div class="navigation-buttons">
-                <button class="prev-lesson">Previous Lesson</button>
-                <button class="next-lesson">Next Lesson</button>
-            </div>
-        </div>
-    </div>
-
-    <script>
-
-// Barcha accordion tugmalarini olish
-var acc = document.getElementsByClassName("accordion");
-
-for (var i = 0; i < acc.length; i++) {
-    acc[i].addEventListener("click", function() {
-        // Accordion tugmachasiga bosilganda "active" klassini qo'shish
-        this.classList.toggle("active");
-
-        // Panelni ochish yoki yopish
-        var panel = this.nextElementSibling;
-        if (panel.style.display === "block") {
-            panel.style.display = "none";
-        } else {
-            panel.style.display = "block";
-        }
-    });
-}
-	
-</script>
+    <!-- Your other HTML content -->
 </body>
 </html>

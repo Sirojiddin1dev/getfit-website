@@ -15,7 +15,7 @@ const dropDownData = [
     name: "Ko'krak va triceps",
     videos: [
       {
-        id: 1,
+        id: '16f102b7690440beb5b030b8f9df2aaf',
         name: 'Video 1',
         otp: '20160313versASE323nFtynCqN5DALtZRpAVC5Da0fFP7GkZwLXuifHgron36UGq',
         playbackInfo: 'eyJ2aWRlb0lkIjoiZmY3NDY1ZGZjZDViNGFhN2ExNmQzZWNkMzgxZGViY2QifQ=='
@@ -23,14 +23,14 @@ const dropDownData = [
       {
         id: 2,
         name: 'Video 2',
-        otp: 'otp_example_2',
-        playbackInfo: 'playbackInfo_example_2'
+        otp: '20160313versASE323RkHxY8onuA2ClI3JxY8yemRktRBhzFthNPDpVLvZnaN0ie',
+        playbackInfo: 'eyJ2aWRlb0lkIjoiZmY3NDY1ZGZjZDViNGFhN2ExNmQzZWNkMzgxZGViY2QifQ=='
       },
       {
-        id: 3,
+        id: '16f102b7690440beb5b030b8f9df2aaf',
         name: 'Video 3',
-        otp: 'otp_example_3',
-        playbackInfo: 'playbackInfo_example_3'
+        otp: '20160313versASE323PkbeVN4jcAUUFHtQXyINGkW5igLMc4NjhTRrsHKqlF914O',
+        playbackInfo: 'eyJ2aWRlb0lkIjoiMTZmMTAyYjc2OTA0NDBiZWI1YjAzMGI4ZjlkZjJhYWYifQ=='
       },
     ],
   },
@@ -328,12 +328,7 @@ elDropDownMain.addEventListener('click', (evt) => {
 
     // Vdocipher videosini yuklash
     elVideoSection.innerHTML = `
-      <iframe src="https://player.vdocipher.com/v2/?otp=${otp}&playbackInfo=${playbackInfo}"
-              allow="encrypted-media"
-              style="height:405px;width:720px;max-width:100%;border:0;"
-              allowfullscreen="true">
-      </iframe>
-    `;
+<iframe src="https://player.vdocipher.com/v2/?otp=20160313versASE323PkbeVN4jcAUUFHtQXyINGkW5igLMc4NjhTRrsHKqlF914O&playbackInfo=eyJ2aWRlb0lkIjoiMTZmMTAyYjc2OTA0NDBiZWI1YjAzMGI4ZjlkZjJhYWYifQ==" style="border:0;height:360px;width:640px;max-width:100%" allowFullScreen="true" allow="encrypted-media"></iframe>    `;
   }
 });
 

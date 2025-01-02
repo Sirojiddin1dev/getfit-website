@@ -3,12 +3,12 @@
 * {
 	box-sizing: border-box;
 	margin: 0;
-	padding: 0;	
+	padding: 0;
 	font-family: Raleway, sans-serif;
 }
 
 body {
-	background:white;	
+	background: white;
 }
 
 .container {
@@ -18,21 +18,22 @@ body {
 	min-height: 100vh;
 }
 
-.screen {		
-	background: linear-gradient(90deg, #91e3a2, #9be65a);		
-	position: relative;	
-	height: 600px;
-	width: 360px;	
+.screen {
+	background: linear-gradient(90deg, #91e3a2, #9be65a);
+	position: relative;
+	height: auto; /* Adjusted height for better content fit */
+	width: 360px;
 	box-shadow: 0px 0px 24px #063f34;
 }
 
 .screen__content {
 	z-index: 1;
-	position: relative;	
+	position: relative;
 	height: 100%;
+	padding: 20px;
 }
 
-.screen__background {		
+.screen__background {
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -40,7 +41,7 @@ body {
 	bottom: 0;
 	z-index: 0;
 	-webkit-clip-path: inset(0 0 0 0);
-	clip-path: inset(0 0 0 0);	
+	clip-path: inset(0 0 0 0);
 }
 
 .screen__background__shape {
@@ -51,18 +52,18 @@ body {
 .screen__background__shape1 {
 	height: 520px;
 	width: 520px;
-	background: #FFF;	
+	background: #FFF;
 	top: -50px;
-	right: 120px;	
+	right: 120px;
 	border-radius: 0 72px 0 0;
 }
 
 .screen__background__shape2 {
 	height: 220px;
 	width: 220px;
-	background: #62ff00;	
+	background: #62ff00;
 	top: -172px;
-	right: 0;	
+	right: 0;
 	border-radius: 32px;
 }
 
@@ -71,28 +72,28 @@ body {
 	width: 190px;
 	background: linear-gradient(270deg, #74a454, #029902);
 	top: -24px;
-	right: 0;	
+	right: 0;
 	border-radius: 32px;
 }
 
 .screen__background__shape4 {
 	height: 400px;
 	width: 200px;
-	background: #62ff00;	
+	background: #62ff00;
 	top: 420px;
-	right: 50px;	
+	right: 50px;
 	border-radius: 60px;
 }
 
 .login {
-	width: 320px;
+	width: 100%;
 	padding: 30px;
-	padding-top: 156px;
+	padding-top: 100px;
 }
 
 .login__field {
-	padding: 20px 0px;	
-	position: relative;	
+	padding: 20px 0px;
+	position: relative;
 }
 
 .login__icon {
@@ -150,7 +151,7 @@ body {
 	color: #7875B5;
 }
 
-.social-login {	
+.social-login {
 	position: absolute;
 	height: 140px;
 	width: 160px;
@@ -169,10 +170,85 @@ body {
 .social-login__icon {
 	padding: 20px 10px;
 	color: #fff;
-	text-decoration: none;	
+	text-decoration: none;
 	text-shadow: 0px 0px 8px #7875B5;
 }
 
 .social-login__icon:hover {
-	transform: scale(1.5);	
+	transform: scale(1.5);
+}
+
+.error-message {
+    background-color: #f8d7da;
+    color: #721c24;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #f5c6cb;
+    border-radius: 5px;
+    text-align: center;
+}
+
+/* New styles for the device selection */
+.device-selection-section {
+	background-color: #f9f9f9;
+	padding: 30px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	border-top: 2px solid #e5e5e5;
+}
+
+.device-selection-section h2 {
+	color: #333;
+	margin-bottom: 20px;
+	font-size: 18px;
+	text-align: center;
+}
+
+.device-item {
+	display: flex;
+	align-items: center;
+	margin-bottom: 15px;
+	width: 100%;
+	border: 1px solid #ddd;
+	border-radius: 5px;
+	padding: 10px;
+	background-color: white;
+	box-shadow: 0px 1px 4px rgba(0,0,0,0.1);
+}
+
+.device-item img {
+	width: 40px;
+	height: 40px;
+	object-fit: cover;
+	margin-right: 15px;
+	border-radius: 50%;
+}
+
+.device-item label {
+	flex-grow: 1;
+	color: #333;
+	font-weight: bold;
+}
+
+.device-item input {
+	margin-right: 10px;
+}
+
+.device-remove-button {
+	background-color: #ff5b5b;
+	color: white;
+	border: none;
+	padding: 8px 12px;
+	border-radius: 5px;
+	cursor: pointer;
+	transition: background-color 0.3s ease;
+}
+
+.device-remove-button:hover {
+	background-color: #ff3333;
+}
+
+.device-selection-section .button {
+	margin-top: 20px;
 }

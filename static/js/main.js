@@ -1,4 +1,3 @@
-// Elementlarni olish
 const elDropDownParent = document.querySelector('.dropdowns');
 const elDropDownMain = document.querySelector('.dropdown__main');
 const elVideoSection = document.querySelector('.video__main');
@@ -15,22 +14,22 @@ const dropDownData = [
     name: "Ko'krak va triceps",
     videos: [
       {
-        id: '16f102b7690440beb5b030b8f9df2aaf',
-        name: 'Video 1',
-        otp: '20160313versASE323nFtynCqN5DALtZRpAVC5Da0fFP7GkZwLXuifHgron36UGq',
-        playbackInfo: 'eyJ2aWRlb0lkIjoiZmY3NDY1ZGZjZDViNGFhN2ExNmQzZWNkMzgxZGViY2QifQ=='
+        id: 1,
+        name: 'Something',
+        otp: '20160313versASE323WLTUMjnw51QzCWcfbt1lWVZvOej9yfwLj7CIuN7BvJYEhv',
+        playBackInfo: 'eyJ2aWRlb0lkIjoiZmY3NDY1ZGZjZDViNGFhN2ExNmQzZWNkMzgxZGViY2QifQ==',
       },
       {
         id: 2,
-        name: 'Video 2',
-        otp: '20160313versASE323RkHxY8onuA2ClI3JxY8yemRktRBhzFthNPDpVLvZnaN0ie',
-        playbackInfo: 'eyJ2aWRlb0lkIjoiZmY3NDY1ZGZjZDViNGFhN2ExNmQzZWNkMzgxZGViY2QifQ=='
+        name: 'Something',
+        otp: 'a1b2c3d4e5f6',
+        playBackInfo: 'abcdefghijk',
       },
       {
-        id: '16f102b7690440beb5b030b8f9df2aaf',
-        name: 'Video 3',
-        otp: '20160313versASE323PkbeVN4jcAUUFHtQXyINGkW5igLMc4NjhTRrsHKqlF914O',
-        playbackInfo: 'eyJ2aWRlb0lkIjoiMTZmMTAyYjc2OTA0NDBiZWI1YjAzMGI4ZjlkZjJhYWYifQ=='
+        id: 3,
+        name: 'Something',
+        otp: 'a1b2c3d4e5f6',
+        playBackInfo: 'abcdefghijk',
       },
     ],
   },
@@ -40,21 +39,15 @@ const dropDownData = [
     videos: [
       {
         id: 4,
-        name: 'Video 4',
-        otp: 'otp_example_4',
-        playbackInfo: 'playbackInfo_example_4'
+        name: 'Something',
       },
       {
         id: 5,
-        name: 'Video 5',
-        otp: 'otp_example_5',
-        playbackInfo: 'playbackInfo_example_5'
+        name: 'Something',
       },
       {
         id: 6,
-        name: 'Video 6',
-        otp: 'otp_example_6',
-        playbackInfo: 'playbackInfo_example_6'
+        name: 'Something',
       },
     ],
   },
@@ -64,21 +57,15 @@ const dropDownData = [
     videos: [
       {
         id: 7,
-        name: 'Video 7',
-        otp: 'otp_example_7',
-        playbackInfo: 'playbackInfo_example_7'
+        name: 'Something',
       },
       {
         id: 8,
-        name: 'Video 8',
-        otp: 'otp_example_8',
-        playbackInfo: 'playbackInfo_example_8'
+        name: 'Something',
       },
       {
         id: 9,
-        name: 'Video 9',
-        otp: 'otp_example_9',
-        playbackInfo: 'playbackInfo_example_9'
+        name: 'Something',
       },
     ],
   },
@@ -88,21 +75,15 @@ const dropDownData = [
     videos: [
       {
         id: 10,
-        name: 'Video 10',
-        otp: 'otp_example_10',
-        playbackInfo: 'playbackInfo_example_10'
+        name: 'Something',
       },
       {
         id: 11,
-        name: 'Video 11',
-        otp: 'otp_example_11',
-        playbackInfo: 'playbackInfo_example_11'
+        name: 'Something',
       },
       {
         id: 12,
-        name: 'Video 12',
-        otp: 'otp_example_12',
-        playbackInfo: 'playbackInfo_example_12'
+        name: 'Something',
       },
     ],
   },
@@ -112,21 +93,15 @@ const dropDownData = [
     videos: [
       {
         id: 13,
-        name: 'Video 13',
-        otp: 'otp_example_13',
-        playbackInfo: 'playbackInfo_example_13'
+        name: 'Something',
       },
       {
         id: 14,
-        name: 'Video 14',
-        otp: 'otp_example_14',
-        playbackInfo: 'playbackInfo_example_14'
+        name: 'Something',
       },
       {
         id: 15,
-        name: 'Video 15',
-        otp: 'otp_example_15',
-        playbackInfo: 'playbackInfo_example_15'
+        name: 'Something',
       },
     ],
   },
@@ -136,21 +111,15 @@ const dropDownData = [
     videos: [
       {
         id: 16,
-        name: 'Video 16',
-        otp: 'otp_example_16',
-        playbackInfo: 'playbackInfo_example_16'
+        name: 'Something',
       },
       {
         id: 17,
-        name: 'Video 17',
-        otp: 'otp_example_17',
-        playbackInfo: 'playbackInfo_example_17'
+        name: 'Something',
       },
       {
         id: 18,
-        name: 'Video 18',
-        otp: 'otp_example_18',
-        playbackInfo: 'playbackInfo_example_18'
+        name: 'Something',
       },
     ],
   },
@@ -160,21 +129,15 @@ const dropDownData = [
     videos: [
       {
         id: 19,
-        name: 'Video 19',
-        otp: 'otp_example_19',
-        playbackInfo: 'playbackInfo_example_19'
+        name: 'Something',
       },
       {
         id: 20,
-        name: 'Video 20',
-        otp: 'otp_example_20',
-        playbackInfo: 'playbackInfo_example_20'
+        name: 'Something',
       },
       {
         id: 21,
-        name: 'Video 21',
-        otp: 'otp_example_21',
-        playbackInfo: 'playbackInfo_example_21'
+        name: 'Something',
       },
     ],
   },
@@ -184,21 +147,15 @@ const dropDownData = [
     videos: [
       {
         id: 22,
-        name: 'Video 22',
-        otp: 'otp_example_22',
-        playbackInfo: 'playbackInfo_example_22'
+        name: 'Something',
       },
       {
         id: 23,
-        name: 'Video 23',
-        otp: 'otp_example_23',
-        playbackInfo: 'playbackInfo_example_23'
+        name: 'Something',
       },
       {
         id: 24,
-        name: 'Video 24',
-        otp: 'otp_example_24',
-        playbackInfo: 'playbackInfo_example_24'
+        name: 'Something',
       },
     ],
   },
@@ -208,21 +165,15 @@ const dropDownData = [
     videos: [
       {
         id: 26,
-        name: 'Video 26',
-        otp: 'otp_example_26',
-        playbackInfo: 'playbackInfo_example_26'
+        name: 'Something',
       },
       {
         id: 27,
-        name: 'Video 27',
-        otp: 'otp_example_27',
-        playbackInfo: 'playbackInfo_example_27'
+        name: 'Something',
       },
       {
         id: 28,
-        name: 'Video 28',
-        otp: 'otp_example_28',
-        playbackInfo: 'playbackInfo_example_28'
+        name: 'Something',
       },
     ],
   },
@@ -232,21 +183,15 @@ const dropDownData = [
     videos: [
       {
         id: 29,
-        name: 'Video 29',
-        otp: 'otp_example_29',
-        playbackInfo: 'playbackInfo_example_29'
+        name: 'Something',
       },
       {
         id: 30,
-        name: 'Video 30',
-        otp: 'otp_example_30',
-        playbackInfo: 'playbackInfo_example_30'
+        name: 'Something',
       },
       {
         id: 31,
-        name: 'Video 31',
-        otp: 'otp_example_31',
-        playbackInfo: 'playbackInfo_example_31'
+        name: 'Something',
       },
     ],
   },
@@ -256,21 +201,15 @@ const dropDownData = [
     videos: [
       {
         id: 32,
-        name: 'Video 32',
-        otp: 'otp_example_32',
-        playbackInfo: 'playbackInfo_example_32'
+        name: 'Something',
       },
       {
         id: 33,
-        name: 'Video 33',
-        otp: 'otp_example_33',
-        playbackInfo: 'playbackInfo_example_33'
+        name: 'Something',
       },
       {
         id: 34,
-        name: 'Video 34',
-        otp: 'otp_example_34',
-        playbackInfo: 'playbackInfo_example_34'
+        name: 'Something',
       },
     ],
   },
@@ -280,28 +219,23 @@ const dropDownData = [
     videos: [
       {
         id: 35,
-        name: 'Video 35',
-        otp: 'otp_example_35',
-        playbackInfo: 'playbackInfo_example_35'
+        name: 'Something',
       },
       {
         id: 36,
-        name: 'Video 36',
-        otp: 'otp_example_36',
-        playbackInfo: 'playbackInfo_example_36'
+        name: 'Something',
       },
       {
         id: 37,
-        name: 'Video 37',
-        otp: 'otp_example_37',
-        playbackInfo: 'playbackInfo_example_37'
+        name: 'Something',
       },
     ],
-  }
+  },
 ];
 
+// ------------- DON'T TOUCH THE CODE BELOW!!!
 
-// DROPDOWN RENDERING
+// RENDER DROPDOWN TO PAGE
 
 dropDownData.map(
   (item) =>
@@ -310,34 +244,80 @@ dropDownData.map(
     <summary>${item.name}</summary>
     ${item.videos
       .map(
-        (video) =>
-          `<button class='dropdown__categories' data-otp='${video.otp}' data-playbackInfo='${video.playbackInfo}'>${video.name}</button>`
+        (item) =>
+          `<button class='dropdown__categories' id=${
+            item.otp + '&' + item.playBackInfo
+          }>${item.name}</button>`
       )
       .join('')}
   </details>
 `)
 );
 
-// Video ko'rsatish
+// ------------- DON'T TOUCH THE CODE BELOW!!!
+
+// PUT VIDEO BY UNIQUE ID
+
+let videoId = [];
+
 elDropDownMain.addEventListener('click', (evt) => {
   if (evt.target.matches('.dropdown__categories')) {
-    elDropDownParent.classList.remove('open');  // Menuni yopish
+    elDropDownParent.classList.forEach((item) => {
+      if (item == 'open') {
+        elDropDownParent.classList.remove('open');
+      }
+    });
 
-    const otp = evt.target.getAttribute('data-otp');  // OTP olish
-    const playbackInfo = evt.target.getAttribute('data-playbackInfo');  // PlaybackInfo olish
+    videoId.push(evt.target.id);
 
-    // Vdocipher videosini yuklash
     elVideoSection.innerHTML = `
-<iframe src="https://player.vdocipher.com/v2/?otp=20160313versASE323PkbeVN4jcAUUFHtQXyINGkW5igLMc4NjhTRrsHKqlF914O&playbackInfo=eyJ2aWRlb0lkIjoiMTZmMTAyYjc2OTA0NDBiZWI1YjAzMGI4ZjlkZjJhYWYifQ==" style="border:0;height:360px;width:640px;max-width:100%" allowFullScreen="true" allow="encrypted-media"></iframe>    `;
+    <iframe
+      src="https://player.vdocipher.com/v2/?otp=${
+        evt.target.id.split('&')[0]
+      }&playbackInfo=${evt.target.id.split('&')[1]}"
+      style="border: 0; width: 720px; height: 405px"
+      allow="encrypted-media"
+      allowfullscreen
+    ></iframe>
+    `;
   }
 });
 
-// MENU RESPONSIVE
+// ------------- DON'T TOUCH THE CODE BELOW!!!
 
-elOpenMenuBtn.addEventListener('click', () => {
-  elDropDownParent.classList.add('open');
+let previousVideo = null;
+
+elVideoBack.addEventListener('click', (evt) => {
+  if (previousVideo == 1) {
+    elVideoSection.innerHTML = `
+      <p>VIDEO TANLANG...</p>
+    `;
+
+    return;
+  }
+
+  previousVideo = videoId[videoId.length - 1];
+
+  // IF YOU CAN CHANGE VIDEO, JUST EDIT SOURCE VIDEO: src="./videos/video.mp4"
+
+  elVideoSection.innerHTML = `
+    <iframe
+      src="https://player.vdocipher.com/v2/?otp=${
+        evt.target.id.split('&')[0]
+      }&playbackInfo=${evt.target.id.split('&')[1]}"
+      style="border: 0; width: 720px; height: 405px"
+      allow="encrypted-media"
+      allowfullscreen
+    ></iframe>
+    `;
 });
 
-elCloseMenuBtn.addEventListener('click', () => {
+// OPEN-CLOSE MENU IN RESPONSIVE
+
+elOpenMenuBtn.addEventListener('click', (evt) => {
+  elDropDownParent.className += ' open';
+});
+
+elCloseMenuBtn.addEventListener('click', (evt) => {
   elDropDownParent.classList.remove('open');
 });
